@@ -18,11 +18,26 @@ class Usuarios
        Console.Write("senha (minimo 4 caracteres): ");
        string senha = Console.ReadLine();
 
-       // validar e guardar: proxima slide 
+        if (login == "" || senha.Length < 4)
+        {
+            Console.WriteLine("Dados inválidos!");
+        }
+        else if (logins.Contains(login))
+        {
+            Console.WriteLine("Esse usuário ja existe!");
+        }
+        else
+        {
+            nomes.Add(nome);
+            logins.Add(login);
+            senhas.Add(senha);
+            Console.WriteLine("Usuário cadastrado!");
+        }
     }
 
 
     public static void Listar()
     {
+        
     }
 }
