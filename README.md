@@ -4,7 +4,7 @@ Sistema de console em C# com controle de usuários e login.
 
 ## O que o sistema faz
 
-- [ ] Cadastrar usuários
+- [x] Cadastrar usuários
 - [ ] Listar usuários
 - [ ] Buscar usuários
 - [ ] Remover usuários
