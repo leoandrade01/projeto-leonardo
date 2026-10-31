@@ -6,7 +6,7 @@ Sistema de console em C# com controle de usuários e login.
 
 - [ ] Cadastrar usuários
 - [ ] Listar usuários
-- [ ] Buscar usuátrios
+- [ ] Buscar usuários
 - [ ] Remover usuários
 - [ ] Entrar com usuários e senha
 
